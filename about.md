@@ -8,3 +8,5 @@ title: About
 </p>
 
 Sawyer's filler text.
+
+<a target="_blank" href="https://icons8.com/icon/z7_Yt70NB7pK/grand-canyon">Grand Canyon</a> favicon by <a target="_blank" href="https://icons8.com">Icons8</a>
