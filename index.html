@@ -1,37 +1,7 @@
----
-layout: default
-title: Home
----
+You have reached the website of Sawyer Bernath. Welcome!
+Sawyer is the Executive Director of the Berkeley Existential Risk Initiative (BERI). For more information, see <a href="https://existence.org">https://existence.org</a>.
+He serves on the board of directors of SecureBio and FAR AI, where he also serves as Treasurer.
+For more career-based information, see <a href="https://linkedin.com/in/sawyerbernath">https://linkedin.com/in/sawyerbernath</a>.
+Sawyer lives in New York City with his fiancée and dog.
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+This page was last updated on 2024-04-09.
